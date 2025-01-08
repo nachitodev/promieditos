@@ -1,0 +1,46 @@
+{
+    "manifest_version": 3,
+    "name": "Promieditos: Promiedos pero viejito",
+    "version": "0.0.1",
+    "description": "Una extension para modificar la pagina de Promiedos y volver a darle su estilo original.",
+    "icons": {
+        "16": "images/favicon.png"
+    },
+    "author": "nachitodev",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.promiedos.com.ar/*",
+                "*://promiedos.com.ar/*",
+                "*://*.promiedos.com.ar/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "images/*/**",
+                "images/*"
+            ],
+            "matches": [
+                "https://www.promiedos.com.ar/*",
+                "https://promiedos.com.ar/*"
+            ]
+        }
+    ],
+    "permissions": [
+        "scripting",
+        "webRequest",
+        "tabs",
+        "activeTab",
+        "tabGroups"
+    ],
+    "host_permissions": [
+        "*://www.promiedos.com.ar/*",
+        "*://promiedos.com.ar/*",
+        "*://*.promiedos.com.ar/*"
+    ]
+}
