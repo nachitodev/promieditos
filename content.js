@@ -1,4 +1,4 @@
-console.log("test");window.onload=()=>{console.log("debug");const t=document.querySelector("link[rel~='icon']");t.href=chrome.runtime.getURL("/images/favicon.png");const e=document.createElement("link");e.rel="stylesheet",e.href="https://fonts.googleapis.com/icon?family=Material+Icons",document.head.appendChild(e),document.querySelector("#__next > div > main > div > div > aside"),document.querySelector("#__next > div > header > div > div.header__logo > a > img").src=chrome.runtime.getURL("/images/logo2.jpg"),document.querySelector("#__next > div > main > div > div > aside > div").remove();const o=document.createElement("div"),i=document.querySelector("#__next > div > main > div > div > aside ");o.innerHTML=`
+window.onload=()=>{const t=document.querySelector("link[rel~='icon']");t.href=chrome.runtime.getURL("/images/favicon.png");const e=document.createElement("link");e.rel="stylesheet",e.href="https://fonts.googleapis.com/icon?family=Material+Icons",document.head.appendChild(e),document.querySelector("#__next > div > main > div > div > aside"),document.querySelector("#__next > div > header > div > div.header__logo > a > img").src=chrome.runtime.getURL("/images/logo2.jpg"),document.querySelector("#__next > div > main > div > div > aside > div").remove();const o=document.createElement("div"),i=document.querySelector("#__next > div > main > div > div > aside ");o.innerHTML=`
 <div id="accordian" bis_skin_checked="1">
 	<ul>
 		<br>
@@ -112,6 +112,4 @@ body, html {
 }
 
         </style>
-
-
   `,i.appendChild(o),console.log("[Promieditos]: Extension Funcionando!")};
