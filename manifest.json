@@ -4,7 +4,9 @@
     "version": "0.0.1",
     "description": "Una extension para modificar la pagina de Promiedos y volver a darle su estilo original.",
     "icons": {
-        "16": "images/favicon.png"
+        "16": "images/favicon.png",
+        "32": "images/favicon.png",
+        "64": "images/favicon.png"
     },
     "author": "nachitodev",
     "content_scripts": [
