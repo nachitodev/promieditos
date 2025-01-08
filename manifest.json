@@ -33,13 +33,7 @@
             ]
         }
     ],
-    "permissions": [
-        "scripting",
-        "webRequest",
-        "tabs",
-        "activeTab",
-        "tabGroups"
-    ],
+    "permissions": [],
     "host_permissions": [
         "*://www.promiedos.com.ar/*",
         "*://promiedos.com.ar/*",
